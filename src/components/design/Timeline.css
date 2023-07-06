@@ -1,0 +1,51 @@
+.timeline {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+  gap: 20px;
+}
+
+.timeline-event {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding-top: 2rem;
+  height: 10rem;
+  width: 17rem;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.timeline-event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.event-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.event-date {
+  font-size: 14px;
+}
+
+.event-description {
+  margin: 0;
+}

@@ -1,0 +1,18 @@
+.input-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-select {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  
+  .selected-option {
+    color: blue;
+    margin-top: 10px;
+  }
+  
